@@ -5,11 +5,13 @@ public class Test2 {
 		
 		String hungry = "Yes";
 		
-		if(hungry == "Y") {
+		if((hungry == "Y") || (hungry == "Y") || (hungry == "y")) {
+			
 			System.out.println("Eat something...");
 		}
 		
 		else {
+			
 			System.out.println("Do work...");
 		}
 	}
